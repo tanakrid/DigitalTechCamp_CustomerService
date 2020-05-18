@@ -20,9 +20,9 @@ import java.util.List;
 public class CustomerController {
     private CustomerService customerService;
 
-    public CustomerController() {
-
-    }
+//    public CustomerController() {
+//
+//    }
     @Autowired
     public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
